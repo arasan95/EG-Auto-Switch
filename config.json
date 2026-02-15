@@ -1,0 +1,14 @@
+{
+    "default_profile": 1,
+    "mappings": {
+        "league of legends.exe": 2
+    },
+    "ignore_processes": [
+        "elecomui.exe",
+        "python.exe",
+        "powershell.exe",
+        "cmd.exe",
+        "conhost.exe",
+        "searchhost.exe"
+    ]
+}
