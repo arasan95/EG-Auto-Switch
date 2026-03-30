@@ -30,15 +30,9 @@ DEFAULT_CONFIG = {
 }
 
 KNOWN_APP_ALIASES = {
-    # When the user maps LoL, keep the same profile across Riot/LoL front processes.
+    # LoL mapping is intentionally strict: only the actual game process should match.
     "league of legends.exe": {
         "league of legends.exe",
-        "leagueclient.exe",
-        "leagueclientux.exe",
-        "leagueclientuxrender.exe",
-        "leaguecrashhandler64.exe",
-        "riotclientservices.exe",
-        "riotclientcrashhandler.exe",
     },
 }
 
